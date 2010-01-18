@@ -1,0 +1,9 @@
+---
+layout: post
+title: Hello World
+---
+h1. {{ page.title }}
+
+p(meta). 17 Jan 2010 - Montreal
+
+Bonjour le monde, ceci est un test pour tester - wow, quel jeu de mots - Jekyll. Jekyll est un system qui permet de bloguer avec git. Quelle merveiller pour un geek comme moi. j'écrit un fichier text avec l'editeur de mon choix, je le sauve et le commit dans git. Jekyll se charge de le passer dans textile, markdown, etc. et de cree une page web avec le résultat. N'est-ce pas fantastique‽
