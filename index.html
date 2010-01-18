@@ -1,0 +1,17 @@
+---
+layout: default
+title: Endertrom
+---
+
+<div class="post">
+	<p>
+		{{site.posts[0].content}}
+	</p>
+	<a class="permalink" href="{{ site.posts[0].url }}#disqus_thread"></a>
+</div>
+<h3>latest Posts :</h3>
+<ul class="posts">
+	{% for post in site.posts %}
+		<li><span>{{ post.date | date_to_string }}</span> ❯ <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
