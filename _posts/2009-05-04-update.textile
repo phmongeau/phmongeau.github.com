@@ -1,0 +1,19 @@
+---
+layout: post
+title: Update!
+---
+
+ouf!, ça fait longtemps que j'ai écrit quelque chose ici!
+
+Il faut dire qu'avec mon compte twitter et identi.ca je sens moins le besion de mettre à jour mon blog.
+
+Alors, pour ceux que ça intéresse, voici quelques sites où je suis actif:
+
+<span>twitter: <a href="http://www.twitter.com/phmongeau">http://www.twitter.com/phmongeau</a></span>
+
+identi.ca: <a href="http://www.identi.ca/phmongeau">http://www.identi.ca/phmongeau</a>
+
+<span>friendfeed: <a href="http://friendfeed.com/phmongeau">http://friendfeed.com/phmongeau</a></span>
+
+et pour finir, pour suivre mes goûts musicaux: <a href="http://alpha.libre.fm/user/phmongeau">http://alpha.libre.fm/user/phmongeau</a>
+<div id="PageWidthResizerMonMay042009184902GMT0400EDT"></div>

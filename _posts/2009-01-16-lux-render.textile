@@ -1,0 +1,8 @@
+---
+layout: post
+title: Lux Render
+---
+
+Yaay, j'ai finalement réussi à faire fonctionner Lux render avec blender /Yees, finally got lux render to work with blender! 
+
+<img src="http://phmongeau.files.wordpress.com/2009/01/image-1.png" alt="Render après quelques secondes" title="débutRender" width="496" height="372" class="size-full wp-image-43" />

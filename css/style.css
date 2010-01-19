@@ -79,6 +79,8 @@ ul.posts
 ul.posts span, p.meta
 {
 	color: #515151;
+	font-family: Monaco, "Courier New", monospace;
+	font-size: 80%;
 }
 ul.posts a
 {

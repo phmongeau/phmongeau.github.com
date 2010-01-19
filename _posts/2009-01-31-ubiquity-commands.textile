@@ -1,0 +1,10 @@
+---
+layout: post
+title: Ubiquity Commands
+---
+
+I'll post my ubiquity commands here.
+
+Friendfeed: <a title="friendfeed cmd" href="http://gist.github.com/55373">http://gist.github.com/55373</a>
+
+E.ggtimer: <a title="timer ubiquity command" href="http://gist.github.com/70487">http://gist.github.com/70487</a>

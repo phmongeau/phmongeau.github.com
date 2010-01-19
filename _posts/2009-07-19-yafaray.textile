@@ -1,0 +1,17 @@
+---
+layout: post
+title: Yafaray
+---
+
+J'ai commencé à faire des expériences de render avec Yafaray. C'est un renderer qui utilise un algorithme pour simuler les photons de manière à obtenir un rendu très proches de la réalité.
+
+Je me suis servi d'un excellant tutorial sur CGtuts: <a title="tutorial yafaray" href="http://cg.tutsplus.com/tutorials/model-texture-and-render-a-photorealistic-kitchen-in-blender-and-yafaray/">http://cg.tutsplus.com/tutorials/model-texture-and-render-a-photorealistic-kitchen-in-blender-and-yafaray/</a>
+
+Alors voici ce que j'ai obtenu:
+
+<a href="http://www.flickr.com/photos/ph-mongeau/3739667976/"><img class="alignnone" title="cest beau nest ce pas?" src="http://farm4.static.flickr.com/3471/3739667976_04d0a0878b.jpg" alt="" width="500" height="281" /></a>
+
+Je prévois faire d'autres render, alors je vais les poster si c'est intéressant.
+
+_*Edit: j'ai changer l'image pour une version plus récente et améliorer*_.
+<div id="PageWidthResizerMonJul202009122234GMT0400EST"></div>

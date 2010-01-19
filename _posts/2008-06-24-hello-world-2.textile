@@ -1,0 +1,6 @@
+---
+layout: post
+title: Hi Again Everyone!
+---
+
+Re welcome to my blog, I had probleme with my server so I had to re-install wordpress and I lost all the previous posts but it's not that bad, i'll just restart on new basis. :) I updated the animation section with the latest files so just go it to see my latest animation, bye!

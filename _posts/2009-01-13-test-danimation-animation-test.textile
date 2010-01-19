@@ -1,0 +1,8 @@
+---
+layout: post
+title: Test d'animation/ Animation Test
+---
+
+J'ai fait une petite animation pour le fun. / I did this little aniamtion for fun.
+
+[vimeo http://vimeo.com/2809248] 

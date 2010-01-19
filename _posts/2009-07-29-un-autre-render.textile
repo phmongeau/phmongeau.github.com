@@ -1,0 +1,9 @@
+---
+layout: post
+title: Un autre render
+---
+
+<a href="http://www.flickr.com/photos/ph-mongeau/3771245860/"><img class="alignnone" title="Render yafaray" src="http://fc07.deviantart.com/fs48/i/2009/210/4/8/Stairs_on_wall_by_phmongeau.png" alt="" width="540" height="304" /></a>
+
+Ben oui, j'ai fait un autre render. j'arrivais pas avoir quelque chose de beau dans la fenêtre alors j'ai fait un dessin avec Gimp. J'ai aussi ajuster un peu les couleurs.
+<div id="PageWidthResizerWedJul292009235652GMT0400EST"></div>

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Arduino Render
+---
+
+Ajourd'hui, j'avais envie de faire un autre modèle avec blender, mais je ne savais pas quoi modeler.
+
+Après un peu de fouillage sur internet, j'ai trouver ce <a title="Gallerie de Gabich" href="http://www.yafaray.org/community/forum/viewtopic.php?f=5&t=1813">post sur le forum de Yafaray</a>.
+
+En voyant ses renders de plaques électroniques, je me suis dit que je pourrais modeler un <a title="arduino" href="http://www.arduino.cc/">Arduino</a>.
+
+Et après quelques heures de gossages, voici le résultat (Render avec Yafaray):
+
+<a href="http://www.flickr.com/photos/ph-mongeau/3756878962/"><img title="Arduino Render" src="http://farm3.static.flickr.com/2559/3756878962_28a72db725.jpg" alt="Render avec Yafaray." width="500" height="281" /></a>

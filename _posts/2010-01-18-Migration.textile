@@ -1,0 +1,12 @@
+---
+layout: post
+title: Migration
+---
+h1. {{page.title}}
+
+p(meta). 18 Jan 2010 - Montreal
+
+À la fin de l'été, la plus part des oiseaux migrent vers le sud...
+Ce n'est pas de ce type de migration que je voulais parler.
+Ce que je veux dire par migration c'est que j'ai fait migrer mes posts wordpress vers ce blog ci. C'est fantastique n'est-ce pas. Le seul problem est que certain de mes vieux article contiennent des liens brisés et il se peut aussi que certain contiennet des ereur du à la syntax différente de wordpress, mais en gros tout semble avoir biens fonctionné alors je suis heureux. :)
+

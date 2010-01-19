@@ -1,0 +1,11 @@
+---
+layout: post
+title: _Why?
+---
+
+Aujourd'hui, le codeur et artiste _why à disparu d'internet. Étrangement, je venais tout juste de commencer à lire son livre Why's Poignant guide to ruby" hier.
+
+J'espère qu'il va revenir où qu'on va avoir des explications, mais en attendant quoi de mieux que d'écouter une de ses chansons issue de la bande sonore de son livre:
+
+<a href="http://ph.mongeau.googlepages.com/chap2-thisbookismadeofrabbitsandlemo.mp3">This booke is made (of rabbits lemonade)</a>
+<div id="PageWidthResizerWedAug192009203157GMT0400EST"></div>

@@ -1,0 +1,7 @@
+---
+layout: post
+title: Test de feedburner
+---
+
+Grâce au site de Gina Trapani, <a title="Smarterware" href="http://smarterware.org/2746/how-to-pubsubhubbub-enable-your-sites-feed">Smarterware</a>, j'ai activer le Pubsubhub sur le feed RSS de mon blog. Ceci permet donc à mon feed d'apparaitre en temps réelle sur FriendFeed et peut-être d'autres services plus tard. Ce post est donc un test pour voir si ça marche
+<div id="PageWidthResizerMonAug102009204238GMT0400EST"></div>

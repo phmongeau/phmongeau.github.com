@@ -1,0 +1,12 @@
+---
+layout: post
+title: J'ai fait une jeu
+---
+
+Cliquez sur l'image pour jouer.
+
+C'est mon premier jeu en flash. Il y a encore quelques bug, mais j'y travaille.
+
+J'ai aussi commencé un autre jeu, mais c'est pas pour tout de suite.
+
+<a href="http://www.kongregate.com/games/phmongeau/blue-ninja?sfa=permalink&referrer=phmongeau%22"><img class="alignnone" title="Blue Ninja" src="http://phmongeau.files.wordpress.com/2009/10/shot_-22.png?w=497" alt="" width="496" height="378" /></a>

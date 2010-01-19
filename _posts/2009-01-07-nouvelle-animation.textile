@@ -1,0 +1,19 @@
+---
+layout: post
+title: Nouvelle animation!
+---
+
+(English below)
+J'ai commencé une nouvelle animation pour tester ma tablet wacom.
+
+Je suis maintenant entrain de la transférer en 3D avec blender.
+
+Voici les résultats:
+
+2D:
+[vimeo http://vimeo.com/2745719]
+3D:
+[vimeo http://vimeo.com/2745741]
+
+I just started an new animation with my wacom. It's based on Jason Ryan weight lift tutorial.
+The animations are above.

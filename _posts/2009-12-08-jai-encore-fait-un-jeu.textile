@@ -1,0 +1,9 @@
+---
+layout: post
+title: J'ai encore fait un jeu
+---
+
+Boom! deuxième jeu terminer! 
+C'est un Space Invader inversé, on joue dans le rôle des extra-terrestres.
+
+<a href="http://j.mp/4ymi8m"><img alt="click to play" src="http://sites.google.com/site/phmongeau/_/rsrc/1259536753712/invaders/SpaceInvader.png" title="You Are The Invader" width="480" height="640" /></a>
