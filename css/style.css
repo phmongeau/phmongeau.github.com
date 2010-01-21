@@ -44,11 +44,11 @@ h1 {
 	width: 50%;
 }
 
-.post, .posts
+.post, .posts, #contact
 {
 	width: 100%;
 	padding: 20px;
-	background: #EAEAEA;
+	background: #EBEBEB;
 	border-bottom: 3px solid #000000;
 	-moz-border-radius-topleft: 10px;
 	-moz-border-radius-topright: 10px;
