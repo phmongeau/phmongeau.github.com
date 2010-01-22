@@ -1,0 +1,16 @@
+---
+layout: post
+title: Pourquoi j'ai quitté Wordpress
+---
+
+h1. {{page.title}}
+
+p(meta). 22 janvier 2010
+
+Jusqu'à vla quelques jours, j'utilisais "Wordpress.com":http://wordpress.com comme platforme de blogue. Avant j'avais même ma propre installation wordpress que j'hébergait moi même, mais que j'ai abandonné. Le probleme de Wordress.com est que le controlle que j'ai sur mon blogue est restreint par ce que je suis près à payer. Si je veux utiliser mon propre thème au lieux d'un de ceux qui me sont proposés, je dois acheter la "Custum Css Uprgrade" pour 15 dollars. Aussi, l'édition html des posts est très limité. Par exemple, je peut seulemen intégrer des videos des sites supportés. Wordpress est reconnu pour c'est nombreux plugins, mais sur Wordpress.com on ne peut pas les intsallés. Bref, pour profiter plainement de wordpress, il m'aurait fallu une installation sur un autre serveur.
+
+Dérangé par le manque de controlle que j'avais sur mon blogue, j'ai regardé les alternatives et j'ai trouvé "jekyll":http://jekyllrb.com/. "Jekyll":http://jekyllrb.com/ est un générateur de page web orienté blogue. Ce programme écrit en ruby transforme des articles écrit dans des fichier textes et les formatent selon des templates html choisis par l'utilisateur. En terme de fonctionalités, "jekyll":http://jekyllrb.com/ se trouve loin derrière les autres platformes. Sont but est plutot d'offrire un système minimaliste pouvant être modifier à souhait.
+
+Pour ce qui est de l'hébergement, j'aurais pu choisir à peu près n'importe que hébergeur puisque le site généré par "jekyll":http://jekyllrb.com/ est consitué de simples pages html, mais j'ai opté pour github puisque celui-ci utilise déja "jekyll.":http://jekyllrb.com/ Mon blog est un répertoir git et chaque fois que je fait un push vers github, celui ci génere les fichier html.
+
+En gros, j'ai quitté wordpress.com afin d'avoir un plus grand controlle et une plus grand souplesse sur mon blogue.

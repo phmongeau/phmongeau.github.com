@@ -82,7 +82,7 @@ ul.posts span, p.meta
 	font-family: Monaco, "Courier New", monospace;
 	font-size: 80%;
 }
-ul.posts a
+ul.posts a, .post a
 {
 	color: #991F08;
 }
