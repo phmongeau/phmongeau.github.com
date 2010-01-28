@@ -1,0 +1,18 @@
+---
+title: Si c'est ça l'informatique moderne...
+layout: post
+---
+
+h1. {{page.title}}
+
+p(meta). 27 Janvier 2010
+
+Annoncé aujourd'hui par Apple, le "iPad":http://apple.com/ipad... bof! :(
+
+Franchement, je suis déçu. Est-ce que l'époque où l'on est en contrôle de notre ordinateur est révolue? En décidant de continuer sur le modèle du App Store, Apple restreint le niveau de contrôle que l'on possède sur l'appareil. Ce que je veux dire par là est que toute application développée pour la tablette doit obtenir l'approbation d'Apple avant de pouvoir être distribuée. S'ils sont en désaccord avec votre application, il n'y a pratiquement aucun moyen que les gens s'en servent.
+
+À quoi bon enlever les DRM des chansons si l'on restreint autant la vente d'appliations?
+
+Un ordinateur permet de développer des logiciels pour celui-ci sans devoir utiliser d'autres machines. Je peux démarrer mon Mac, lancer un éditeur de texte, écrire quelques lignes de codes et avoir une application prête à être compilée sans que quiconques aient son mot à dire sur mon droit de la distribuer au public. Avec le iPad, on perd toute cette liberté.
+
+Moi qui rêve d'un futur où l'ouverture du code serait chose commune je commence à perdre espoir. Vivment le jailbreak que le iPad trouve un peu de liberté.
