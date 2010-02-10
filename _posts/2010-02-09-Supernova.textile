@@ -1,0 +1,27 @@
+---
+title: Supernova, backup your stars
+layout: post
+date: 2010-02-09 19:20:00 -05:00
+---
+
+h1. {{page.title}}
+
+p(meta). 9 Fevrier 2010
+
+__En français plus bas__
+
+I like to star items in Google Reader as a way of being able to find the later when I need them. The probleme is the way I'm using stars would be better suited for bookmarks. Having realised that, I searched for a way to export my Google Reader starred items and found none. 
+
+I knew we could have an RSS feed of our starred items so I made a script that reads the RSS feed and export each link to a text file. I tought i could import this easely in my Firefox bookmarks... truns out I was wrong. The only way to import bookmarks was from an HTML file. So that's wath I made.
+
+You can "get the script from Github":http://github.com/phmongeau/Supernova. If you don't have ruby you will need to install it.
+
+------------------------
+
+Une des choses que j'aime bien de Google Reader est la possibilité de mettre une étoile sur les articles qu'on voudrait lire plus tard par exemple. En français, cette liste s'appelle « Liste de suivi". En anglais, c'est “starred items”.
+
+Je voulais un moyen de pouvoir exporter ma liste de suivi vers mes favoris, mais je n'ai rien trouvé me permettant de le faire. J'ai donc entrepris de faire un script permettant d'exporter la liste via son flux RSS.
+
+La première version enregistrait les liens dans un fichier texte, mais je ne pouvais pas l'importer dans mes favoris. Il me fallait un fichier HTML. C'est donc ce que j'ai fait.
+
+Vous pouvez "obtenir le script sur Github":http://github.com/phmongeau/Supernova. Si vous n'avez pas Ruby, il vous faudra l'installer.
