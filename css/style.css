@@ -16,7 +16,7 @@ body {
 
 a, a:link, a:visited {
 	text-decoration: none;
-	color: #000000;
+	color: #991F08;
 }
 
 a:hover {
@@ -36,6 +36,12 @@ h1 {
 #header
 {
 	margin-bottom: 50px;
+}
+#header a
+{
+	text-decoration: none;
+	color: #000000;
+
 }
 #header h1
 {

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Index
+title: Ph.Mongeau
 ---
 
 <div class="post">
@@ -12,6 +12,6 @@ title: Index
 <h3>latest Posts :</h3>
 <ul class="posts">
 	{% for post in site.posts %}
-		<li><span>{{ post.date | date_to_string }}</span> ❯ <a href="{{ post.url }}">{{ post.title }}</a></li>
+		<li><span>{{ post.date | date_to_string }}</span> &#10095; <a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
