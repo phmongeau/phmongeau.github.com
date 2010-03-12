@@ -1,0 +1,21 @@
+---
+title: Générateur de map aléatoire
+layout: post
+date: 2010-03-12 00:15:00 -05:00
+---
+
+h1. {{page.title}}
+
+p(meta). 12 Mars 2010
+
+!http://dl.dropbox.com/u/67075/MapGen.PNG(Example de niveau)!
+
+Je découvre de plus en plus de jeux don les niveaux sont générés aléatoirement. C'est jeux sont généralement intéressant puisque chaque partie sera différente. On ne peut pas bloquer à un endroit particulier du niveau puisqu'il est regénéré à chque fois.
+
+J'ai commencé à faire un générateur de niveau en python pour voir ce que j'était capable de faire. J'utiliserai peut-être cette technique pour faire un jeu complet plus tard, mais pour l'instant je ne fait qu'afficher le niveau dans une fenêtre.
+
+Le côté graphique du programme à été fait avec "Pyglet":http://www.pyglet.org 
+
+Pour obtenir le code source "c'est ici.":http://github.com/phmongeau/MapGen
+
+Vous aurez évidement besoin de "Python":http://python.org et de "Pyglet":http://www.pyglet.org pour le faire fonctionnner.
