@@ -82,7 +82,7 @@ ul.posts
 {
 	list-style: none;
 }
-ul.posts span, p.meta
+ul.posts span.date, p.meta
 {
 	color: #515151;
 	font-family: Monaco, "Courier New", monospace;
