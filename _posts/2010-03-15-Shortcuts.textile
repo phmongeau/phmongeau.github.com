@@ -1,0 +1,16 @@
+---
+title: Racourcis claviers
+layout: post
+date: 2010-03-15 21:45:00 -05:00
+---
+
+h1. {{page.title}}
+
+p(meta). 15 Mars 2010
+
+Du changement sur mon blogue! Ça ne parait probablement pas, mais j'ai rajouté des fonctionnalités à mon blogue.
+Si vous êtes sur la page d'accueil, vous pouvez naviguer dans les articles en utilisant les touches « j »  et « k » de votre clavier. Vous pouvez également utiliser la touche « o » pour ouvrir la page de l'article.
+
+Vous vous demandez peut-être pour quoi ces touches au lieu des flèches? Je me suis simplement inspiré de nombreux logiciels et sites qui utilisent ces touches. Des logiciels comme Vim, Google Reader et bien d'autres.
+
+L'avantage d'utiliser « j » et « k » à la place des flèches est que vos mains n'ont pas besoin de quitter la rangée centrale de votre clavier ce qui vous permet de naviguer plus rapidement.
