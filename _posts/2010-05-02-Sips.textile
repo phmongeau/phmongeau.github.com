@@ -1,0 +1,22 @@
+---
+title: Sips
+layout: post
+date: 2010-05-02 22:20:00 -05:00
+---
+
+h1. {{page.title}}
+
+p(meta). 2 Mai 2010
+
+
+!http://dl.dropbox.com/u/67075/Sips.png!
+
+J'ai récement découvert "sips":http://developer.apple.com/Mac/library/documentation/Darwin/Reference/ManPages/man1/sips.1.html, un fantastique programme qui viens avec OS X. C'est un petit programme qui s'utilise dans le terminal pour manipuler des images.
+On peu, entre autres, redimmesionner et tourner une ou plusieurs images à la fois.
+
+Pour tourner une image de 90°: 
+	<pre> ~ $ sips LeNomDelimage.jpg -r 90 </pre>
+
+Pour redimensionner on utilise la commande @--resampleWidth@ ou @--resampleHeight@ au lieu du @-r@.
+
+Un truc pratique est d'utiliser @*.png@ ou @*.jpg@ comme nom d'immage afin d'appliquer la commande sur tout les images du dossier dans lequel on se trouve.
