@@ -1,0 +1,16 @@
+body
+{
+    width: 95%;
+    padding: 3px;
+}
+
+
+img
+{
+    max-width: 70%;
+}
+
+.post
+{
+    max-width: 90%;
+}
