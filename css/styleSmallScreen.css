@@ -10,7 +10,7 @@ img
     max-width: 70%;
 }
 
-.post
+.post, .posts
 {
     max-width: 90%;
 }
