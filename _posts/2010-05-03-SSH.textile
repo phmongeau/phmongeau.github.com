@@ -1,0 +1,23 @@
+---
+title: SSH sans mot de passe
+layout: post
+date: 2010-05-02 22:20:00 -05:00
+---
+
+h1. {{page.title}}
+
+p(meta). 22 Juillet 2010
+
+Il m'arrive assez souvent de devoir me connecter à un autre ordinateur (serveur) via SSH. À chaque fois que je m'y connect, je dois entrer un mot de passe. Ceci est raisonable si je m'en serre seulement de temps en temps, mais quand je dois m'y connecter plusieurs fois par jours, ça deviens énervant. Heureusement, j'ai enfin trouver une solution. SSH permet de controller l'acces au serveur avec des clés "SHA-1":http://wikipedia.org/fr/SHA-1
+
+Voici comment faire:
+
+Premierement, vérifiez si vous avez déja généré une clé SSH. Pour cela, aller voir s'il y à un fichier @id_rsa.pub@ dans le répertoire @~/.ssh@
+
+S'il n'y est pas, exécuter la commande suivante pour le généré.
+
+bc. ssh-keygen -t rsa -C "votreEmail@gmail.com" 
+
+Ensuite, il suffit de copier le fichier dans le répertoire @~/.ssh/authorized_keys@ sur votre serveur.
+
+bc. cat ~/.ssh/id_rsa.pub | ssh user@192.168.1.14 "cat - >> ~/.ssh/authorized_keys"
