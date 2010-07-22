@@ -10,7 +10,6 @@ body {
 	//margin-right: auto;
 	width: 800px;
 	padding: 0;
-	background: rgb(255, 255, 255) url(background.jpg);
 	color: rgb(0, 0, 0);
 }
 
@@ -115,4 +114,10 @@ a.permalink
 {
 	text-align: center;
     margin-top: 50px;
+}
+
+pre
+{
+    background: #666;
+    color: #ccc;
 }
