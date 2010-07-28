@@ -2,7 +2,6 @@
 layout: post
 title: Test En Semi Profondeur
 ---
-h1. {{ page.title }}
 
 p(meta). 17 Jan 2010 - Montreal
 

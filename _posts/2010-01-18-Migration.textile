@@ -2,7 +2,6 @@
 layout: post
 title: Migration
 ---
-h1. {{page.title}}
 
 p(meta). 18 Jan 2010 - Montreal
 

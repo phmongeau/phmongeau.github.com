@@ -4,7 +4,6 @@ layout: post
 date: 2010-04-08 23:15:00 -05:00
 ---
 
-h1. {{page.title}}
 
 p(meta). 8 Avril 2010
 

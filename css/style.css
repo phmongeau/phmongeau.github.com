@@ -23,6 +23,10 @@ a:hover {
 	color: #000000;
 }
 
+a h1 {
+    color: #000000;
+}
+
 img {
 	border: 0;
 }
@@ -62,6 +66,7 @@ h1 {
 //	text-decoration: underline;
 	border-bottom: 3px solid #000000;
 	width: 50%;
+    padding-bottom: 3px;
 }
 
 .post, .posts, #contact
@@ -90,6 +95,15 @@ h1 {
 	-webkit-border-top-right-radius: 0px;
 	-webkit-border-bottom-left-radius: 10px;
 	-webkit-border-bottom-right-radius: 10px;
+}
+
+.content
+{
+	display: none;
+	border: 1px solid #555555;
+	padding: 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 ul.posts

@@ -3,7 +3,6 @@ layout: post
 title: Pourquoi j'ai quitté Wordpress
 ---
 
-h1. {{page.title}}
 
 p(meta). 22 janvier 2010
 

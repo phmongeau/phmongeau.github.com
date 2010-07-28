@@ -1,6 +1,7 @@
 $(document).ready(function()
 {
-	$('.content').hide();
+	//$('.content').hide();
+	$('.posts :first').removeClass('item').remove();
 	$('.posts :first').removeClass('item').addClass('itemSelected');
 	$(document).keypress(function(e)
 	{
@@ -19,7 +20,13 @@ $(document).ready(function()
 	function next()
 	{
 		var c = $('.itemSelected')
-		if ($(c).next().attr('class') == 'item')
+		if ($('.itemSelected .content').css('display') == 'none')
+		{
+			$('.item .content').hide();
+			$('.itemSelected .content').show();
+			$('html, body').animate({ scrollTop: $('.itemSelected').offset().top }, 'fast');
+		}
+		else if ($(c).next().attr('class') == 'item')
 		{
 			$('.item .content').hide();
 			$(c).removeClass('itemSelected').addClass('item');
@@ -39,6 +46,11 @@ $(document).ready(function()
 			$(c).prev().addClass('itemSelected');
 			$('.itemSelected .content').show();
 			$('html, body').animate({ scrollTop: $('.itemSelected').offset().top }, 'fast');
+		}
+		else
+		{
+			$('.item .content').hide();
+			$('html, body').animate({ scrollTop: $('#header').offset().top }, 'fast');
 		}
 	}
 	
