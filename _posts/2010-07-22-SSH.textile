@@ -15,8 +15,8 @@ Premierement, vérifiez si vous avez déja généré une clé SSH. Pour cela, al
 
 S'il n'y est pas, exécuter la commande suivante pour le généré.
 
-bc. ssh-keygen -t rsa -C "votreEmail@gmail.com" 
+bc. $ ssh-keygen -t rsa -C "votreEmail@gmail.com" 
 
 Ensuite, il suffit de copier le fichier dans le répertoire @~/.ssh/authorized_keys@ sur votre serveur.
 
-bc. cat ~/.ssh/id_rsa.pub | ssh user@192.168.1.14 "cat - >> ~/.ssh/authorized_keys"
+bc. $ cat ~/.ssh/id_rsa.pub | ssh user@192.168.1.14 "cat - >> ~/.ssh/authorized_keys"

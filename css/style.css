@@ -132,6 +132,9 @@ a.permalink
 
 pre
 {
-    background: #666;
-    color: #ccc;
+    background: #ccc;
+    color: #000;
+    padding-left: 10px;
+    border-left: 10px solid #444;
 }
+

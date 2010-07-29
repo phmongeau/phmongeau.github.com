@@ -14,7 +14,8 @@ J'ai récement découvert "sips":http://developer.apple.com/Mac/library/document
 On peu, entre autres, redimmesionner et tourner une ou plusieurs images à la fois.
 
 Pour tourner une image de 90°: 
-	<pre> ~ $ sips LeNomDelimage.jpg -r 90 </pre>
+
+bc. $ sips LeNomDelimage.jpg -r 90
 
 Pour redimensionner on utilise la commande @--resampleWidth@ ou @--resampleHeight@ au lieu du @-r@.
 
