@@ -5,4 +5,4 @@ title: Bunny Run
 
 I made a run cycle to try to get my run correct in my shot.
 
-[vimeo http://vimeo.com/1292312] 
+<iframe src="http://player.vimeo.com/video/1292312?portrait=0&amp;color=59a5d1" width="400" height="225" frameborder="0"></iframe><p><a href="http://vimeo.com/1292312">Bunny Run Cycle</a> from <a href="http://vimeo.com/phmongeau">Philippe</a> on <a href="http://vimeo.com">Vimeo</a>.</p>

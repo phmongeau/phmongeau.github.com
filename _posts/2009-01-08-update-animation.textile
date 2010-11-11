@@ -4,5 +4,7 @@ title: Update Animation
 ---
 
 J'ai continuer mon animation, toute les poses importantes y sont.:
-[vimeo http://vimeo.com/2754831]
+
+<iframe src="http://player.vimeo.com/video/2754831" width="400" height="206" frameborder="0"></iframe><p><a href="http://vimeo.com/2754831">Weight Lift 2 Block</a> from <a href="http://vimeo.com/phmongeau">Philippe</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
 I continued my animation, I have all the important poses blocked.

@@ -1,0 +1,39 @@
+---
+layout: default
+title: Gallerie
+---
+	<style type="text/css">
+		ul
+		{
+			list-style: none;
+		}
+		#gallerie ul
+		{
+			margin: 0 auto;
+			width: 70%;
+		}
+	</style>
+
+    <div id="gallerie" class="post">
+        <ul style="display: none">
+        	{{ content }}
+        </ul>
+    </div>
+    <script type="text/javascript">
+		$(document).ready(function()
+		{
+	    	$('li').hide();
+	    	$('ul').show();
+	    	$('ul :first').show();
+		    	$('li').click(function()
+	    	{
+	    		$(this).hide();
+	    		if ($(this).next('li').attr('class')  != 'img')
+	    		{
+	    			$('ul :first').fadeIn();
+	    		}
+	    		else $(this).next('li').fadeIn();
+
+	    	});
+		});
+    </script>

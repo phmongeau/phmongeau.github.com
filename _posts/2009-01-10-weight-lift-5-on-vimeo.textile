@@ -5,4 +5,4 @@ title: weight lift 5 on Vimeo
 
 Une autre/another update:
 
-[vimeo http://vimeo.com/2776057] 
+<iframe src="http://player.vimeo.com/video/2776057" width="400" height="206" frameborder="0"></iframe><p><a href="http://vimeo.com/2776057">weight lift 5</a> from <a href="http://vimeo.com/phmongeau">Philippe</a> on <a href="http://vimeo.com">Vimeo</a>.</p>

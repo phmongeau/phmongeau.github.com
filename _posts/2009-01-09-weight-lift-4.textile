@@ -4,4 +4,5 @@ title: weight lift 4
 ---
 
 Update:
-[vimeo http://vimeo.com/2767105] 
+
+<iframe src="http://player.vimeo.com/video/2767105" width="400" height="206" frameborder="0"></iframe><p><a href="http://vimeo.com/2767105">weight lift 4</a> from <a href="http://vimeo.com/phmongeau">Philippe</a> on <a href="http://vimeo.com">Vimeo</a>.</p>

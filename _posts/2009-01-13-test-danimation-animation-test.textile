@@ -5,4 +5,4 @@ title: Test d'animation/ Animation Test
 
 J'ai fait une petite animation pour le fun. / I did this little aniamtion for fun.
 
-[vimeo http://vimeo.com/2809248] 
+<iframe src="http://player.vimeo.com/video/2809248" width="400" height="302" frameborder="0"></iframe><p><a href="http://vimeo.com/2809248">Monkey Barre</a> from <a href="http://vimeo.com/phmongeau">Philippe</a> on <a href="http://vimeo.com">Vimeo</a>.</p>

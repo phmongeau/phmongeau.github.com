@@ -11,9 +11,10 @@ Je suis maintenant entrain de la transférer en 3D avec blender.
 Voici les résultats:
 
 2D:
-[vimeo http://vimeo.com/2745719]
+<iframe src="http://player.vimeo.com/video/2745719" width="400" height="235" frameborder="0"></iframe><p><a href="http://vimeo.com/2745719">Wight lift 2d</a> from <a href="http://vimeo.com/phmongeau">Philippe</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
 3D:
-[vimeo http://vimeo.com/2745741]
+<iframe src="http://player.vimeo.com/video/2745741" width="400" height="206" frameborder="0"></iframe><p><a href="http://vimeo.com/2745741">Weight lift Block</a> from <a href="http://vimeo.com/phmongeau">Philippe</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
 
 I just started an new animation with my wacom. It's based on Jason Ryan weight lift tutorial.
 The animations are above.
