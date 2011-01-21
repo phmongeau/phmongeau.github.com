@@ -1,0 +1,83 @@
+---
+title: Portfolio
+layout: default
+---
+<div class="light">
+	<h1>Dessins:</h1>
+	<a href="/images/portfolio/IMG_2322.JPG" rel="gal1"><img src="/images/portfolio/IMG_2322.JPG" alt="Model Homme"/></a>
+	<a href="/images/portfolio/IMG_2324.JPG" rel="gal1"><img src="/images/portfolio/IMG_2324.JPG" alt="Model Femme"/></a>
+	<a href="/images/portfolio/IMG_2327.JPG" rel="gal1"><img src="/images/portfolio/IMG_2327.JPG" alt="Tete"/></a>
+	<a href="/images/portfolio/IMG_2329.JPG" rel="gal1"><img src="/images/portfolio/IMG_2329.JPG" alt="Venus"/></a>
+	<a href="/images/portfolio/4.JPG" rel="gal1"><img src="/images/portfolio/4.JPG" alt="Jardin"/></a>
+	<a href="/images/portfolio/IMG_2335.JPG" rel="gal1"><img src="/images/portfolio/IMG_2335.JPG" alt="Robots"/></a>
+</div>
+
+<div class="dark">
+	<h1>Peintures:</h1>
+	<a title="Super Mario <br> Acrylique sur HighArt" href="/images/portfolio/1.JPG" rel="gal2">
+		<img src="/images/portfolio/1.JPG" alt="Mario"/></a>
+	<a title="Pastiche de Mollinari <br> Acrylique sur toile" href="/images/portfolio/2.JPG" rel="gal2">
+		<img src="/images/portfolio/2.JPG" alt="Mollinari"/></a>
+	<a title="Mega Man <br> Acrylique sur toile" href="/images/portfolio/3.JPG" rel="gal2">
+		<img src="/images/portfolio/3.JPG" alt="MegaMan"/></a>
+	<a title="Aviateur <br> Acrylique sur toile" href="/images/portfolio/IMG_2334.JPG" rel="gal2">
+		<img src="/images/portfolio/IMG_2334.JPG" alt="Aviateur"/></a>
+	<a href="/images/portfolio/5.JPG" rel="gal1"><img src="/images/portfolio/5.JPG" alt="Pont"/></a>
+</div>
+
+<div class="light">
+	<h1>3D:</h1>
+	<a href="/images/portfolio/big/MonsterRender.jpg" title="Sculpture de Monstre <br> Fait avec Blender" rel="gal3">
+		<img src="/images/portfolio/MonsterRender.jpg" alt="Monster"/></a>
+
+	<a title="Model d'Arduino <br> Fait avec Blender, render avec Yafaray" href="/images/portfolio/big/Arduino_01.png" rel="gal3">
+		<img src="/images/portfolio/Arduino_01.png" alt="Arduino"/></a>
+
+	<a title="Cuisine <br> Fait avec Blender, render avec Yafaray" href="/images/portfolio/big/Cuisine.png" rel="gal3">
+		<img src="/images/portfolio/Cuisine.png" alt="Cuisine"/></a>
+
+	<a title="Stilet et support pour tablette wacom <br> Fait avec Blender" href="/images/portfolio/big/pen_holder.png" rel="gal3">
+		<img src="/images/portfolio/pen_holder.png" alt="wacom pen"/></a>
+
+	<a title="Pi&egrave;ce avec escaliers <br> Fait avec Blender, render avec Yafaray" href="/images/portfolio/big/wallStairs.png" rel="gal3">
+		<img src="/images/portfolio/wallStairs.png" alt="escaliers"/></a>
+</div>
+<div class="dark">
+	<h1>Autres:</h1>
+	<a  class="game" title="Jeu Flash fait pour Teagames.com" 
+		href="/images/portfolio/Game.swf" rel="gal4"><img src="/images/portfolio/marble.gif" alt="Marble"/></a>
+
+	<a title="Horloge binaire <br> Fait avec un Arduino" href="/images/portfolio/big/IMG_2308.jpg" rel="gal4">
+		<img src="/images/portfolio/big/IMG_2308.jpg" alt="Horloge Binaire"/></a>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function()
+    {
+		$(".dark a").fancybox({ 
+			'titleShow'          : true,
+			'titlePosition'      : 'inside',
+			'overlayColor'       : '#000',
+			'overlayOpacity'     : 0.8,
+			'titleFormat'        : formatTitle
+		});
+
+		$(".light a").fancybox({
+			'titlePosition'      : 'inside',
+			'overlayColor'       : '#000',
+			'overlayOpacity'     : 0.8,
+			'titleFormat'        : formatTitle
+		}
+		);
+		$("a.game").fancybox({
+			'width'              : 640,
+			'height'             : 480,
+			'titlePosition'      : 'inside'
+		});
+
+		function formatTitle(title, currentArray, currentIndex, currentOpts)
+		{
+			return '<div>' + '<b>' + (title) + '</b>' + '<br><span style="align:left"> Image ' + (currentIndex +1) + ' de ' + currentArray.length + '</span></div>' ;
+		}
+    });
+</script>

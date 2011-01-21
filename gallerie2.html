@@ -1,0 +1,63 @@
+---
+layout: default
+title: Gallerie
+---
+	<style type="text/css">
+		ul
+		{
+			list-style: none;
+		}
+		#gallerie ul
+		{
+			margin: 0 auto;
+			width: 70%;
+		}
+	</style>
+
+    <div id="gallerie" class="post">
+        <ul style="display: none">
+            <li class='img'>
+				<h4>Super Mario - Acrylique</h4>
+                <img src="img/1.jpg" title="Super Mario - Acrylique" />
+            </li>
+            <li class='img'>
+				<h4>Mollinari - Acrylique</h4>
+                <img src="img/2.jpg" title="Mollinari - Acrylique" />
+            </li>
+            <li class='img'>
+				<h4>Mega Man - Acrylique</h4>
+                <img src="img/3.jpg" title="Mega Man - Acrylique" />
+            </li>
+            <li class='img'>
+				<h4>Composition Statues - Acrylique</h4>
+                <img src="img/4.jpg" title="Composition Statues - Graphite" />
+            </li>
+            <li class='img'>
+				<h4>Barcelona Bridge - Acrylique</h4>
+                <img src="img/5.jpg" title="Barcelona Bridge - Digital Painting" />
+            </li>
+            <li class='img'>
+				<h4>Ailleur</h4>
+                <a href="http://phmongeau.deviantart.com"><img src="img/da.jpg" alt="" /></a>
+                <a href="http://www.flickr.com/photos/ph-mongeau/"><img src="img/flickr.jpg" alt="" /></a>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+		$(document).ready(function()
+		{
+	    	$('li').hide();
+	    	$('ul').show();
+	    	$('ul :first').show();
+		    	$('li').click(function()
+	    	{
+	    		$(this).hide();
+	    		if ($(this).next('li').attr('class')  != 'img')
+	    		{
+	    			$('ul :first').fadeIn();
+	    		}
+	    		else $(this).next('li').fadeIn();
+
+	    	});
+		});
+    </script>

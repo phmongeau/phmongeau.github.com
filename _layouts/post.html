@@ -1,35 +1,11 @@
 ---
 layout: default
 ---
-
-<div class='post'>
+<div id="post">
 	<a href="{{page.url}}"><h1>{{page.title}}</h1></a>
-	{{content}}
-
-	<!-- Next & Prev -->
-	<ul class="others">
-	    {% assign p = page.next %}{% if p %}
-	    <li><span><em>Suivant:</em> &raquo; <a href="{{ p.url }}">{{ p.title }}</a></li>
-	    {% endif %}
-	    {% assign p = page.previous %}{% if p %}
-	    <li><span><em>Précédent:</em> &raquo; <a href="{{ p.url }}">{{ p.title }}</a></li>
-	    {% endif %}
-    </ul>
-	
-	<!--Twitter-->	
-	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="phmongeau">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-	<!--Buzz-->
-	<br>
-	<a title="Publier sur Google Buzz" class="google-buzz-button" href="https://www.google.com/buzz/post" data-button-style="small-count" data-locale="fr"></a>
-	<script type="text/javascript" src="https://www.google.com/buzz/api/button.js"></script>
-	
-	<br>
-	
-	<a class="permalink" href="{{ page.url }}#disqus_thread"></a>
-
+	{{ content }} 
+</div>
+<div class="dark moreArticles">
+	<a href="/blogue">Autres articles</a>
 </div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript" src="http://disqus.com/forums/phmongeau/embed.js"></script>
-<noscript><a href="http://disqus.com/forums/phmongeau/?url=ref">View the discussion thread.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>

@@ -1,73 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset='utf-8' />
-<title>{{page.title}}</title>
-<link href="http://feeds.feedburner.com/phmongeau" rel="alternate" title="Philippe Mongeau" type="application/atom+xml">
-
-<link rel='stylesheet' href='/css/style.css' type='text/css' />
-<link rel='stylesheet' href='/css/styleSmallScreen.css' type='text/css' media="screen and (max-width: 1024px)" />
-
-<script type="text/javascript" src="/javascript/jquery-1.3.1.min.js"></script>
-<script type="text/javascript" src="/javascript/script.js"></script>
-<!-- openid -->
-<link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" > 
-<link rel="openid2.local_id" href="http://www.google.com/profiles/ph.mongeau" >
-
-<!-- google buxx -->
-<link rel="me" type="text/html" href="http://www.google.com/profiles/ph.mongeau"/>
-
+    <meta charset="UTF-8" />
+    <title>Philippe Mongeau</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+    <link media="all" href="/js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet" />
+    <link media="all" href="/css/style.css" type="text/css" rel="stylesheet" />
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->    
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:light,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+	<!--meta name="viewport" content="width=device-width; initial-scale=1.0"-->
 </head>
+<script type="text/javascript">
+    $(document).ready(function()
+    {
+        $("#Art a.gal").fancybox();
+    });
+</script>
 <body>
-<div id="header"> 
-<h1><a href="http://phmongeau.github.com">Ph.Mongeau</a></h1>
-<nav>
-	<a href="/">Home</a> <a href="/gallerie">Gallerie</a> <a href="/Code">Code</a> <a href="/contact">Contact</a>
-</nav>
-</div>
-<div id="main">
-{{content}}
-</div>
-
-
-<div id="footer">
-    <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by-nc-sa/2.5/ca/80x15.png"/></a> <a href="mailto:&#112;&#104;&#046;&#109;&#111;&#110;&#103;&#101;&#097;&#117;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Philippe Mongeau</a></p>
-    <p> 
-        <!--Clicky-->
-        <a title="Web Analytics" href="http://getclicky.com/195749"><img alt="Web Analytics" src="http://static.getclicky.com/media/links/badge.gif" border="0" /></a>
-        <script src="http://static.getclicky.com/js" type="text/javascript"></script>
-        <script type="text/javascript">clicky.init(195749);</script>
-        <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/195749ns.gif" /></p></noscript>
-    </p>
-</div>
+    <header>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+            <li>
+                <a href="/portfolio">Portfolio</a>
+            </li>
+			<li>
+                <a href="/blogue">Blogue</a>
+            </li>
+        </ul>
+		<h1><a href="/">PhMongeau</a></h1>
+    </header>
+    <div id="content">
+    	{{content}}
+    </div>
+	<div id="footer">
+	    <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/"><img alt="Creative Commons License" style="border-width: 0pt;" src="http://i.creativecommons.org/l/by-nc-sa/2.5/ca/80x15.png"/></a> <a href="mailto:&#112;&#104;&#046;&#109;&#111;&#110;&#103;&#101;&#097;&#117;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Philippe Mongeau</a></p>
+		<p> 
+	</div>
 </body>
-
-<!--Disqus-->
-<script type="text/javascript">
-//<![CDATA[
-(function() {
-	var links = document.getElementsByTagName('a');
-	var query = '?';
-	for(var i = 0; i < links.length; i++) {
-	if(links[i].href.indexOf('#disqus_thread') >= 0) {
-		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-	}
-	}
-	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/phmongeau/get_num_replies.js' + query + '"></' + 'script>');
-})();
-//]]>
-</script>
-
-<!--Analytics-->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-12578453-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-
 </html>

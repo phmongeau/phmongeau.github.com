@@ -1,32 +1,22 @@
 ---
+title: Home
 layout: default
-title: Ph.Mongeau
 ---
-<div class="post">
-	<a href="{{site.posts[0].url}}"><h1>{{site.posts[0].title}}</h1></a>
-	<p>
-		{{site.posts[0].content}}
-	</p>
-	<!--Twitter-->
-	<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://phmongeau.github.com{{ site.posts[0].url }}" data-text="{{ site.posts[0].title }}" data-count="horizontal" data-via="phmongeau">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <br>
-    <!--Buzz-->
-    <a title="Publier sur Google Buzz" class="google-buzz-button"
-        href="https://www.google.com/buzz/post" data-button-style="small-count" data-locale="fr" data-url="http://phmongeau.github.com{{ site.posts[0].url }}"></a>
-    <script type="text/javascript" src="https://www.google.com/buzz/api/button.js"></script>
-    
-    <br>
-
-	<a class="permalink" href="{{ site.posts[0].url }}#disqus_thread"></a>
+<div id="lastPost">
+	<h1>Blogue:</h1>
+	<a href="{{site.posts[0].url}}"><h2>{{site.posts[0].title}}</h2></a>
+	{{site.posts[0].content}}
 </div>
-<h3>latest Posts :</h3>
-<ul class="posts">
-	{% for post in site.posts %}
-		<div class ="item">
-            <li><span class='date'>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-			<div class="content">
-				{{post.content}}
-			</div>
-		</div>
-	{% endfor %}
-</ul>
+<div class="dark moreArticles">
+	<a href="/blogue">Autres articles</a>
+</div>
+<div id="Art" class="dark">
+	<h1>Gallerie:</h1>
+	<a href="/images/portfolio/1.JPG" class="gal" rel="gal"><img src="/images/portfolio/1.JPG" alt="Mario"/></a>
+	<a href="/images/portfolio/2.JPG" class="gal" rel="gal"><img src="/images/portfolio/2.JPG" alt="Mollinari"/></a>
+	<a href="/images/portfolio/3.JPG" class="gal" rel="gal"><img src="/images/portfolio/3.JPG" alt="MegaMan"/></a>
+	<a href="/images/portfolio/4.JPG" class="gal" rel="gal"><img src="/images/portfolio/4.JPG" alt="Jardin"/></a>
+	<a href="/images/portfolio/5.JPG" class="gal" rel="gal"><img src="/images/portfolio/5.JPG" alt="Pont"/></a>
+	<a href="#more" class="gal" rel=gal> </a>
+	<div id="more"><a href="/portfolio/">+</a></div>
+</div>
