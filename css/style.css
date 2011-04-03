@@ -119,12 +119,14 @@ header a, headera:visited
     width: 100%;
 */
 	margin: 0 auto;
-	width: 500px;
+	max-width: 495px;
+	min-width: 395px;
+	padding: 10px;
 }
 
 #post p, #lastPost p
 {
-	width: 500px;
+	/*width: 500px;*/
 }
 
 #lastPost a h1, #post a h1
@@ -139,6 +141,7 @@ header a, headera:visited
     border-top: 4px solid #3965CF;
     width: 100%
 }
+/*#Art h1 { margin-left: 10px; }*/
 .dark, .light
 {
 	background: #222;
@@ -147,6 +150,7 @@ header a, headera:visited
 	border-top: 4px solid #3965CF;
 	width: 100%;
 }
+.dark h1, .light h1 { margin-left: 10px; }
 .dark a
 {
 	color: #fff;
@@ -292,3 +296,6 @@ ul.posts li a:hover
 }
 
 .toolitp { position: relative; }
+
+#contact h3, #contact p { margin-left: 10px; }
+
