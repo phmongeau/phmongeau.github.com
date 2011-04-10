@@ -41,6 +41,10 @@ p {
 	line-height: 140%;
 }
 
+/* Hilight footnotes */
+p.footnote:target {
+    background: #abc;
+}
 
 header
 {
