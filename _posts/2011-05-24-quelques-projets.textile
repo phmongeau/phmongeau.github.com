@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Quelques projets"
+date: 2011-05-24 10:00:00 -05:00
+published: true
+---
+
+p(meta). 24 Mai 2011
+
+Ça fait presque un an que j'ai rien écrit içi!
+
+Alors, depuis le temps, j'ai fait plusieurs projets. En voici quelque uns.
+
+h2. "Marble:":http://www.kongregate.com/games/phmongeau/marble
+
+Durant l'été dernier, j'ai fait ce jeu; Probablement mon meilleur pour l'instant.
+
+!/images/posts/marbleScreenShot.png!:http://www.kongregate.com/games/phmongeau/marble
+
+
+h2. "Ogmo Basic Flixel:":https://github.com/phmongeau/Ogmo-Basic-Flixel
+
+Une librarie et démo actionscript pour utiliser les fichier de l'editeur "Ogmo":http://ogmoeditor.com/ dans Flixel.
+
+!/images/posts/OgmoBasicShot.png!:https://github.com/phmongeau/Ogmo-Basic-Flixel
+
+h2. "Split Screen Demo:":http://flixel.org/features.html#cameras "(source)":https://github.com/phmongeau/SplitScreen
+
+Une petite démonstration du nouveau système de caméra dans "Flixel 2.5":http://flixel.org
+
+!/images/posts/SplitScreenShot.png!:http://flixel.org/features.html#cameras
+
+	Et voila, pour l'instant c'est tout.

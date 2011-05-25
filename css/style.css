@@ -120,8 +120,8 @@ header a, header a:visited
 {
 	width: 100%;
 
-	background: #DDD;
-	color:      #000;
+	background: #DFDFDD;
+	color:      #224;
 
 	border-top: 4px solid #FF7300;
 }
@@ -166,7 +166,7 @@ header a, header a:visited
 }
 .light
 {
-	background: #ddd;
+	background: #DFDFDD;
 	color:      #000;
 
 	border-top: 4px solid #FF7300;
@@ -209,7 +209,7 @@ pre
 
 span.date, p.meta
 {
-	color: #515151;
+	color: #855;
 	font-family: Inconsolata, "Courier New", monospace;
 }
 p.meta
@@ -326,7 +326,7 @@ ul.posts li a:hover
 	display:block;
 	position: absolute;
 
-	background: #ddd;
+	background: #DFDFDD;
 	color: #000;
 
 	border: 2px solid #FF7300;
