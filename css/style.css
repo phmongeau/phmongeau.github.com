@@ -339,5 +339,25 @@ ul.posts li a:hover
 
 .toolitp { position: relative; }
 
-#contact h3, #contact h2, #contact p { margin-left: 10px; }
+#contact h3, #contact h2, #contact p { margin-left: 5%; }
 
+#about 
+{
+	width: 40%;
+	float: right;
+	margin-right: 10%;
+}
+
+#gProfile
+{
+	-moz-transition: none;
+	border: none;
+	margin: none;
+	max-width: 16px;
+}
+
+a#gProfileLink
+{
+	text-decoration: none;
+	color: #000000;
+}
