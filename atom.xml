@@ -18,6 +18,7 @@ layout: nil
    <id>http://phmongeau.github.com{{ post.id }}</id> 
    <author>
       <name>Philippe Mongeau</name>
+      <uri>http://phmongeau.github.com/contact/</uri>
       <email>ph.mongeau@gmail.com</email>
    </author>
    <content type="html">{{ post.content | xml_escape }}</content>
