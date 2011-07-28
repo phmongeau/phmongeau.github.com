@@ -228,6 +228,18 @@ ul.posts li a:hover
 	text-decoration: none;
 }
 
+ul.posts li span.date:after
+{
+	content: " » "
+}
+
+li.bloguePost { list-style: none; }
+
+#post img
+{
+	max-width: 100%;
+}
+
 #more
 {
 	background: #222;
