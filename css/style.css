@@ -235,7 +235,7 @@ ul.posts li span.date:after
 
 li.bloguePost { list-style: none; }
 
-#post img
+#content img
 {
 	max-width: 100%;
 }
