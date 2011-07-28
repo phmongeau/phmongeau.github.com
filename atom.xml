@@ -9,17 +9,18 @@ layout: nil
  <link href="http://phmongeau.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://phmongeau.github.com</id>
- <author>
-   <name>Philippe Mongeau</name>
-   <email>ph.mongeau@gmail.com</email>
- </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://phmongeau.github.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://phmongeau.github.com{{ post.id }}</id>
+   <id>http://phmongeau.github.com{{ post.id }}</id> 
+   <author>
+      <name>Philippe Mongeau</name>
+      <uri>http://phmongeau.github.com/contact/</uri>
+      <email>ph.mongeau@gmail.com</email>
+   </author>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
