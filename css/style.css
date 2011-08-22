@@ -365,7 +365,7 @@ li.bloguePost { list-style: none; }
 	-moz-transition: none;
 	border: none;
 	margin: none;
-	max-width: 16px;
+	max-width: 16px !important;
 }
 
 a#gProfileLink
