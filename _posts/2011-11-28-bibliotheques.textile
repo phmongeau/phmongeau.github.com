@@ -1,0 +1,31 @@
+---
+title: Comment j'ai geolocalisé les bibliothèques de Montréal.
+layout: post
+date: date 17:00:00 -05:00
+---
+p(meta). 28 novembre 2011
+
+!/images/posts/biblio_map.png(bibliothèques montreal)!:http://biblio-montreal-map.herokuapp.com/static/map.html
+
+
+Le 19 novembre, j'ai participé à un "hackathon organisé par Montréal Ouvert.":http://montrealouvert.net/2011/11/23/compte-rendu-du-3e-hackathon-montreal-ouvert/ À l'occasion de cet événement, la ville de montreal à publié le catalogue complet de ses bibliothèques.
+
+Malheureusement, la ville de Montréal ne publie pas l'emplacement des bibliothèques. J'ai donc entrepris la tâche de le faire moi même. Voici le processus par lequel j'ai réussis.
+
+h2. Obtention de la liste des bibliothèques et de leurs adresses.
+
+"Cette page web":http://ville.montreal.qc.ca/pls/portal/url/page/biblio_fr/rep_biblios/rep_biblios_reseau/biblios_reseau de la ville de Montréal présente une liste des bibliothèques. En cliquant sur une d'elles, on obtient son horaire et son adresse. En examinant le code source de la page, j'ai remarqué que ces informations était obtenues par un appelle javascript qui obtenait un document JSON.
+
+À partir: de là j'ai donc pu utiliser l'url suivant:
+
+bc. http://ville.montreal.qc.ca/pls/portal/ubst.lieu_wqp.get_coord_horaire?p_langue={fr ou en}&p_id={un nombre entre 0 et 60}
+
+afin d'obtenir les documents json de chaques bibliothèque. J'ai, par la suite extrait le nom et l'adresse de chaque document et les ai transcrits dans un simple fichier texte, le tout à l'aide d'un "script":https://gist.github.com/1402406#file_scrape.py python.
+
+h2. Obtention des coordonnées à partir des adresses.
+
+Une fois les adresse obtenues, il me restait encore à obtenir les coordonnées équivalentes afin de pouvoir les afficher sur une carte. Pour cela, j'ai utilisé un des "API de Google Maps":http://code.google.com/apis/maps/documentation/places/index.html avec un autre "script":https://gist.github.com/1402406#file_locater.py python. J'ai donc pu créer un autre fichier JSON contenant chaque bibliothèque ainsi que leurs latitudes et longitudes. Je me suis, par la suite, servi de ce fichier pour afficher chaque bibliothèque sur une carte Google Maps.
+
+Vous pouvez voir le résultat final à l'adresse suivante : "http://biblio-montreal-map.herokuapp.com/static/map.html":http://biblio-montreal-map.herokuapp.com/static/map.html
+
+Et les scripts l'adresse suivante: "https://gist.github.com/1402406":https://gist.github.com/1402406
