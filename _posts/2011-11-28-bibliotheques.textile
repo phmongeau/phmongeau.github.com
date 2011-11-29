@@ -1,5 +1,5 @@
 ---
-title: Comment j'ai geolocalisé les bibliothèques de Montréal.
+title: Comment j'ai géolocalisé les bibliothèques de Montréal.
 layout: post
 date: date 17:00:00 -05:00
 ---
