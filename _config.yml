@@ -1,4 +1,4 @@
 server: true
 auto: true
 permalink: pretty
-exclude: [draft]
+#exclude: [draft]
