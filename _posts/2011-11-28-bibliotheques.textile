@@ -1,7 +1,7 @@
 ---
 title: Comment j'ai géolocalisé les bibliothèques de Montréal.
 layout: post
-date: date 17:00:00 -05:00
+date: 2011-11-28 17:00:00 -05:00
 ---
 p(meta). 28 novembre 2011
 
